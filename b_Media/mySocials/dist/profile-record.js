@@ -32,6 +32,9 @@
       : filled + " of " + n + " fields filled"));
     if (!locked) { var ch = el("div", "chips"); STATUS.forEach(function (s) { ch.appendChild(el("span", "chip " + s, s + " " + counts[s])); }); head.appendChild(ch); }
     var b = el("button", "act", "Export PDF"); b.onclick = function () { window.print(); }; head.appendChild(b);
+    if (globalThis.CloudMeBridge && globalThis.CloudMeBridge.importData) { // only inside the Cloud Me app
+      var im = el("button", "act", "Import data"); im.style.marginLeft = "8px"; im.onclick = function () { globalThis.CloudMeBridge.importData(); }; head.appendChild(im);
+    }
     app.appendChild(head);
     schema.sections.forEach(function (s) {
       var c = el("div", "card"); c.appendChild(el("h2", null, s.title));
