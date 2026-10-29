@@ -1,0 +1,54 @@
+{
+  "schema": "readme-node/v1",
+  "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
+  "name": "z-archived_front-media",
+  "label": "z-archived_front-media",
+  "code": "8.1.2.5",
+  "kind": "repo",
+  "variant": "archived",
+  "description": "Front group b_Media (split from front-projects, #1072)",
+  "visibility": "public",
+  "url": "https://github.com/diegonmarcos/z-archived_front-media",
+  "developer": "Z-archived",
+  "farm": "8.Archived",
+  "breadcrumb": [
+    {
+      "code": "8",
+      "kind": "area",
+      "label": "Archived",
+      "icon": "📦"
+    },
+    {
+      "code": "8.1",
+      "kind": "project",
+      "label": "Z-archived",
+      "icon": "📦"
+    },
+    {
+      "code": "8.1.2",
+      "kind": "family",
+      "label": "Front",
+      "icon": ""
+    }
+  ],
+  "hub": {
+    "name": "z-archived-___",
+    "code": "8.0",
+    "url": "https://github.com/diegonmarcos/z-archived-___"
+  },
+  "base_dir": "git",
+  "members": [],
+  "tree": [
+    "├── 0_deployer (submodule)",
+    "├── 0_hub/",
+    "│   └── z-archived-___ (submodule)",
+    "└── b_Media/",
+    "    └── mySocials/",
+    "        ├── dist/",
+    "        └── src/"
+  ],
+  "old_names": [
+    "front-media"
+  ],
+  "history": "Superseded 2026-10-25 (#1196): its projects moved into cloud-me-pub-profiles-prf-prs (b_Profiles); renamed z-archived_front-media, to be archived on GitHub (owner click)"
+}
